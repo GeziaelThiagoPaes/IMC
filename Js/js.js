@@ -36,7 +36,7 @@ calcular.addEventListener('click', function (e) {
     return texto.textContent = `Obesidade Grau III: ${reduzirDigitos}`;
   }
   else {
-    return texto.textContent = `Não é um número, por favor digite um número!`;
+    return texto.textContent = `Insira um valor!`;
   };
   
 });
